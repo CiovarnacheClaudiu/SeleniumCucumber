@@ -1,6 +1,6 @@
-@login
-Feature: Oveit Login Feature
 
+Feature: Oveit Login Feature
+  @test
   Scenario: Login with valid credentials
     Given I navigate to Oveit link
     When I login with "valid" credentials

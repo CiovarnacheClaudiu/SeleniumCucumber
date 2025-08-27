@@ -29,7 +29,7 @@ public class EventsPage {
     }
 
     public void checkUserIsLoggedIn() {
-        wait.until(ExpectedConditions.titleIs("My events - Oveit"));
+        wait.until(ExpectedConditions.titleIs("My attractions - Oveit"));
         Assert.assertEquals(driver.getCurrentUrl(), "https://web02.stg.oveit.com/seller/events");
     }
 }
